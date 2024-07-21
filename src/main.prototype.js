@@ -15,7 +15,7 @@ const username = generateRandomUsername();
 
 const mainChannel = xanoClient.channel("main");
 
-const messageInput = document.getElementById('private-message-input');
+const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 const messageList = document.getElementById('messageList');
 
